@@ -20,7 +20,7 @@ This project provisions an **AWS EC2 instance** using Terraform (Infrastructure 
 
 **Terraform-Project-1/main.tf** - Main Terraform configuration that defines the AWS resources (EC2 provisioning logic).
 
-**Terraform-Project-1/variables.tf** - Defines Terraform input variables (for example: region, instance type, AMI, tags, and the EC2 name passed from the workflow).
+**Terraform-Project-1/variables.tf** - Defines Terraform input variables.
 
 ## GitHub Secrets
 Before running the workflow, create an IAM user/credentials and add them to GitHub Secrets, then reference them in the workflow as environment variables like AWS_ACCESS_KEY_ID and AWS_SECRET_ACCESS_KEY.
